@@ -4,20 +4,20 @@ public class HelloWorld{
   
   public static void main(String []args){
             
-            Scanner scanner = new Scanner(System.in);
+            Scanner keyboard = new Scanner(System.in);
             
             double a,b,c;
             double x1, x2;
             double discriminant;
             
             System.out.print("Enter a: ");
-            a = scanner.nextDouble();
+            a = keyboard.nextDouble();
             
             System.out.print("Enter b: ");
-            b = scanner.nextDouble();
+            b = keyboard.nextDouble();
             
             System.out.print("Enter c: ");
-            c = scanner.nextDouble();
+            c = keyboard.nextDouble();
             
             discriminant = (Math.pow(b, 2) - 4 * a * c);
             
